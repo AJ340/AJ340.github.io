@@ -1,7 +1,257 @@
 <!DOCTYPE html>
 <html>
+
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<head>
+	<title>Andres Quinones NYC</title>
+</head>
+
+
+
+<style>
+	.tablink {
+		background-color: white;
+	}
+</style>
+
+
+
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<!-- Navbar -->
+<ul class="w3-top w3-navbar w3-lightgray">
+  <li><a href="javascript:void(0)" class="tablink w3-green w3-hover-green" onclick="openInfo(event, 'Home')">{Andres Quinones}</a></li>
+  <li><a href="javascript:void(0)" class="tablink w3-hover-green" onclick="openInfo(event, 'About Me');">About Me</a></li>
+  <li><a href="javascript:void(0)" class="tablink w3-hover-green" onclick="openInfo(event, 'Skills');">Skills</a></li>
+  <li><a href="javascript:void(0)" class="tablink w3-hover-green" onclick="openInfo(event, 'Education');">Education</a></li>
+  <li><a href="javascript:void(0)" class="tablink w3-hover-green" onclick="openInfo(event, 'Work Exp.');">Work Exp.</a></li>
+  <li><a href="javascript:void(0)" class="tablink w3-hover-green" onclick="openInfo(event, 'Projects');">Projects</a></li>
+</ul>
+
+<!-- Content -->
+<div class= "w3-layout-container w3-display-middle" style="width:80%">
+
+<div id="Home" class="info">
+  <h2> - Under Construction -</h2>
+  <h2> Hello, I'm Andres Quinones.</h2>
+  <image src="http://gdurl.com/U7tZ" alt="AQ-Profile"
+  style="width:50%;height:auto;">
+
+
+</div>
+
+<div id="About Me" class="info" style="display:none">
+  <h2>About Me</h2>
+  <p>I will be graduating soon. I think technology is awesome and interesting.  I find using technology to solve problems to be incredibly satisfying. As a result of this, I consider myself to be a fast learner,  productive and a valuable contributor to projects I work on.
+  <br><br>
+	I subscribe to technology, politics (loosely), video games, movies and (attempt to) follow television on my free time.</p>
+</div>
+
+<div id="Skills" class="info" style="display:none">
+  <ul class="w3-ul w3-layout-cell">
+    <h2>Technical Skills</h2>
+	<li>Proficient in C++</li>
+	<li>Proficient in C</li>
+	<li>Proficient in Lisp</li>
+	<li>Fundamentals of HTML, CSS and Javascript</li>
+	<li>Still improving in Python</li>
+	<li>Still Improving in Ruby and Rails</li>
+	<li>Still improving in Java</li>
+	<li>Worked using GitHub</li>
+	<li>Worked with Windows, macOS, and Linux (Ubuntu)</li>
+  </ul>
+
+  <ul class="w3-ul w3-layout-cell">
+    <h2>Soft Skills</h2>
+  	<li>Fast-Learner </li>
+	<li>Passion for Problem Solving</li>
+	<li>Finds thrill in Programming and Learning</li>
+	<li>Comfortable with complex Math</li>
+	<li>Eye for Design and Clean Code</li>
+	<li>Excellent Communication Skills</li>
+	<li>Friendly and Empathetic</li>
+	<li>Enjoys helping others</li>
+	<li>Great Team Coordination Skills</li>
+  </ul>
+</div>
+
+<div id="Education" class="info" style="display:none " >
+  <h2>Education</h2>
+  
+ <div class="w3-card w3-layout-cell" style="width:70%">
+   <header class="w3-container w3-purple">
+   	<h4>Hunter College</h4>
+   </header>
+   <div class="w3-container">
+   <p>B.A. with Honors in Computer Science / Math Minor <br>
+  	 3.7 GPA Overall. 3.7 Major GPA. <br>
+	 Dean’s list recognition <br>
+	 Entered September 2014 <br>
+	 Graduating May 2017 <br>
+	 <b> Some Important Classes</b> <br>
+	•Data Structures, Algorithms, and OOP with C++. <br>
+	•Database Management in SQL Plus. <br>
+	•Computer Architecture I, II, III. <br>
+	•Parallel Programming in C with Open MPI and Open MP. <br>
+	 •Artificial Intelligence Programming in Lisp. <br>
+ 	•Assembly Programming foundation in MIPS. <br>
+ 	•Basic GPU computing with Open CL. <br>
+	•First-Order Symbolic Logic and Proofs. <br> 
+	•Graph Theory, Matrix Algebra, Statistics, Calculus I and Calculus II Fundamentals
+   </p>
+   </div>
+ </div> 
+
+   <div class="w3-card w3-layout-cell">
+   <header class="w3-container w3-blue">
+   <h4>New York Institute of Technology</h4>
+   </header>
+     <div class="w3-container" style="width:80%">
+     <p>B.S. in Computer Science<br>
+   	   Entered Fall 2013 <br>
+   	   Transferred Out Summer 2014 <br>
+   	   <b> What I learned: </b> <br>
+        •Basics of Digital Audio <br>
+        •Fundamentals of Object Oriented Programming with Basic Java.
+     </p>
+     </div>
+   </div>
+</div>
+
+<div id="Work Exp." class="info" style="display:none">
+  <h2>Work Experience</h2>
+ <div class="w3-card w3-layout-cell" style="width:50%">
+  <header class="w3-container w3-indigo">
+  <h4>Temporary Customer Engineer (IT) at mindShift</h4>
+  </header>
+  <div class="w3-container">
+  <p> <b>Date: </b> June 2016 to September 2016 <br>
+  •Understand and Resolve computer hardware and software failures for clients <br>
+  •Analyze and troubleshoot complex network infrastructure in education. <br>
+  •Working knowledge in Active Directory
+  </p>
+  </div>
+ </div>
+
+ <div class="w3-card w3-layout-cell" style="width:auto">
+  <header class="w3-container w3-red">
+  <h4>Field Technician (IT) at Amvean</h4>
+  </header>
+  <div class="w3-container">
+  <p> <b>Date: </b> August 2015 – November 2015 <br>
+  •	Schedule and complete appointments with clients regarding Software and Hardware problems. <br>
+  •	Troubleshoot networks for small businesses and residential customers. <br>
+  •	Handle invoicing via Quickbooks. <br>
+  </p>
+  </div>
+ </div>
+
+ <h2>Volunteering</h2>
+ <div class="w3-card w3-layout-cell" style="width:auto">
+  <header class="w3-container w3-teal">
+  <h4>Citizen Teacher at Citizen Schools</h4>
+  </header>
+  <div class="w3-container">
+  <p> <b>Date: </b> January 2013 – May 2013 <br>
+  • Teach programming fundamentals to 6th and 7th graders <br>
+  • Video Game Design/Development in Scratch
+  </p>
+  </div>
+ </div>  
+</div>
+
+
+<div id="Projects" class="info" style="display:none">
+  <h2>Noteworthy Projects</h2>
+  <div class="w3-accordion w3-light-grey">
+  <button onclick="expandProjects('Proj1')" class="w3-btn-block w3-left-align w3-green">
+    Mastermind (Board Game) player
+  </button>
+  <div id="Proj1" class="w3-accordion-content w3-container w3-hide">
+    <p>•Worked in a small team (group of 4) to create a near optimal, time efficient (10 seconds per game), scalable mastermind player in Clozure Common LISP over the course of 2 months. <br>
+	•Utilized a Development cycle similar to Agile Methodology where group self-assessed project needs and time while working on many small iterations towards the goal. <br>
+	•Wrote unit tests against large code pool and ran them on Amazon Azure and Travis CI. <br>
+	•Collaborated and managed multiple versions and iterations on GitHub. <br>
+	•Improved performance over time by improving complexities of various functions </p>
+  </div>
+  <button onclick="expandProjects('Proj2')" class="w3-btn-block w3-left-align w3-green">
+    RNA Reconstruction Problem
+  </button>
+  <div id="Proj2" class="w3-accordion-content w3-container w3-hide">
+    <p>•Modeled a RNA sequence broken by enzymes as a graph using a custom Adjacency Matrix Class in C++ <br>
+	•Found all possible reconstructions of these broken subsequences by finding all Euler Circuits.</p>
+  </div>
+    <button onclick="expandProjects('Proj3')" class="w3-btn-block w3-left-align w3-green">
+    Simple OS Simulation
+  </button>
+  <div id="Proj3" class="w3-accordion-content w3-container w3-hide">
+    <p>•Modeled core operating system including CPU with preemptive priority scheduling (without priority elevation), Worst-Fit Memory Allocation, CPU and Device Queues and simple PCBs. <br>
+	•Kept code clean and organized across multiple files in C++. <br>
+	•Created Easy command interface for manipulating system.</p>
+  </div>
+    <button onclick="expandProjects('Proj4')" class="w3-btn-block w3-left-align w3-green">
+	Parallel Traffic Circle
+  </button>
+  <div id="Proj4" class="w3-accordion-content w3-container w3-hide">
+    <p>•Modeled a traffic circle with 4 entrances utilizing a Monte Carlo Method. <br>
+	•Modeled arrival time for cars as an Exponentially Distributed Random Variable <br>
+	•Simulated exit destination for each car as a Uniform Random Variable</p>
+  </div>
+    <button onclick="expandProjects('Proj5')" class="w3-btn-block w3-left-align w3-green">
+	Hospital Database
+  </button>
+  <div id="Proj5" class="w3-accordion-content w3-container w3-hide">
+    <p>•Worked as a team to create ER Model and Diagram simulating a Hospital Structure <br>
+	•Utilized relational algebra, calculus and normalization throughout the development process. <br>
+	•Implemented physical model of database using Oracle SQL Plus with code to create, populate and drop tables in the schema</p>
+  </div>
+
+</div>
+
+<script>
+var last_expanded = ""
+function expandProjects(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+    var y = document.getElementById(last_expanded);
+    if (last_expanded != "" && last_expanded != id){
+    	if (y.className.indexOf("w3-hide") == -1) {
+    		y.className += " w3-hide";
+    	} else { 
+    		y.className = y.className.replace(" w3-show", "");
+    	}
+    }
+    last_expanded = id;
+}
+</script>
+
+
+</div>
+
+</div>
+
+<script>
+
+
+function openInfo(evt, infoName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("info");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-green", " w3-lightgray");
+    }
+    document.getElementById(infoName).style.display = "block";
+    evt.currentTarget.className += " w3-green";
+}
+</script>
+
 </body>
 </html>
