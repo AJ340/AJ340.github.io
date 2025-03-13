@@ -1,300 +1,215 @@
 <!DOCTYPE html>
-<html>
-
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-
-<head>
-	<title>Andres Quinones NYC</title>
-</head>
-
-
-
-<style>
-	.tablink {
-		background-color: white;
-	}
-</style>
-
-
-
-
-<body>
-<!-- Navbar -->
-<ul class="w3-top w3-navbar w3-lightgray">
-  <li><a href="javascript:void(0)" class="tablink w3-green w3-hover-green" onclick="openInfo(event, 'Home')">{Andres Quinones}</a></li>
-  <li><a href="javascript:void(0)" class="tablink w3-hover-green" onclick="openInfo(event, 'About Me');">About Me</a></li>
-  <li><a href="javascript:void(0)" class="tablink w3-hover-green" onclick="openInfo(event, 'Skills');">Skills</a></li>
-  <li><a href="javascript:void(0)" class="tablink w3-hover-green" onclick="openInfo(event, 'Education');">Education</a></li>
-  <li><a href="javascript:void(0)" class="tablink w3-hover-green" onclick="openInfo(event, 'Work Exp.');">Work Exp.</a></li>
-  <li><a href="javascript:void(0)" class="tablink w3-hover-green" onclick="openInfo(event, 'Projects');">Projects</a></li>
-</ul>
-
-<!-- Content -->
-<div class= "w3-layout-container w3-display-middle" style="width:80%">
-
-<div id="Home" class="info">
-  <h2> Hello, I'm Andres Quinones.</h2>
-  <image src="images/ProfilePic.jpg" alt="AQ-Profile"
-  style="width:50%;height:auto;">
-
-  <p> I'm on a mission to grow in IT and Software, so that I can use what I learn to make the world a better place. One day at a time. </p>
-
-
-
-</div>
-
-<div id="About Me" class="info" style="display:none">
-  <h2>About Me</h2>
-  <p>I graduated Magna Cum Laude with a BA in Computer Science and a minor in Math (see more in the education tab)!  I think technology is awesome and interesting and I find using technology to solve problems to be incredibly satisfying. I've always been fascinated in learning and I am always up for a challenge so that I can grow.
-  <br><br>
-  I have a newfound interest in Artificial Intelligence and Data Science.
-  <br><br>
-  In my free time I like to hit the gym, watch a movie, play with my dog (he's a jack russel - fox terrior mix in case you were wondering :)) or play a videogame every now and then (I'm a fan of Nintendo and Sony).
-  <br><br>
-  I'm a down to earth and relatable guy. I have no problem discussing ideas, discussing different viewpoints, working from the bottom up, working from the top down, working as a team or working alone. 
-</div>
-
-<div id="Skills" class="info" style="display:none">
-  <ul class="w3-ul w3-layout-cell">
-    <h2>Technical Skills</h2>
-	<li>Proficient in C++</li>
-	<li>Proficient in C</li>
-	<li>Proficient in Lisp</li>
-  <li>Experienced in Python</li>
-  <li>Experienced in Bash</li>
-	<li>Fundamentals of HTML, CSS and Javascript</li>
-	<li>Still Improving in Ruby and Rails</li>
-	<li>Still improving in Java</li>
-	<li>Worked using GitHub and Atlassian tools</li>
-	<li>Worked with Windows, macOS, and Linux (Ubuntu)</li>
-  </ul>
-
-  <ul class="w3-ul w3-layout-cell">
-    <h2>Soft Skills</h2>
-  	<li>Fast-Learner </li>
-	<li>Passion for Problem Solving</li>
-	<li>Finds thrill in Programming and Learning</li>
-	<li>Comfortable with complex Math</li>
-  <li>Comfortable with academic articles and documentation</li>
-	<li>Eye for Design and Clean Code</li>
-	<li>Excellent Communication Skills</li>
-	<li>Friendly and Empathetic</li>
-	<li>Enjoys helping others</li>
-	<li>Great Team Coordination Skills</li>
-  </ul>
-</div>
-
-<div id="Education" class="info" style="display:none " >
-  <h2>Education</h2>
-  
-  <div class="w3-card w3-layout-cell">
-    <header class="w3-container w3-blue">
-      <h4>New York Institute of Technology</h4>
-    </header>
-    <div class="w3-container" style="width:80%">
-      <p>B.S. in Computer Science<br>
-       Entered Fall 2013 <br>
-       Transferred Out Summer 2014 <br>
-       <b> Some Classes </b> <br>
-        •Basics of Digital Audio <br>
-        •Fundamentals of Object Oriented Programming with Basic Java.
-     </p>
-     </div>
-   </div>
-
- <div class="w3-card w3-layout-cell" style="width:70%">
-   <header class="w3-container w3-purple">
-   	<h4>Hunter College</h4>
-   </header>
-   <div class="w3-container">
-   <p>B.A. with Magna Cum Laude in Computer Science / Math Minor <br>
-  	 3.7 GPA Overall. 3.7 Major GPA. <br>
-	 Entered September 2014 <br>
-	 Graduating May 2017 <br>
-	 <b> Some Important Classes</b> <br>
-	•Data Structures, Algorithms, and OOP with C++. <br>
-	•Database Management in SQL Plus. <br>
-  •Big Data using Hadoop, Pandas, and NoSQL in Python <br>
-	•Computer Architecture I, II, III. <br>
-	•Parallel Programming in C with Open MPI and Open MP. <br>
-	•Artificial Intelligence Programming in Lisp. <br>
- 	•Assembly Programming foundation in MIPS. <br>
- 	•Basic GPU computing with Open CL. <br>
-	•First-Order Symbolic Logic and Proofs. <br> 
-	•Graph Theory, Matrix Algebra, Statistics, Calculus I and Calculus II Fundamentals
-   </p>
-   </div>
- </div> 
-
-</div>
-
-<div id="Work Exp." class="info" style="display:none">
-  <h2>Work Experience</h2>
-  <div class="w3-card w3-layout-cell" style="width:33%">
-  <header class="w3-container w3-indigo">
-  <h4>Temporary Customer Engineer (IT) at mindShift</h4>
-  </header>
-  <div class="w3-container">
-  <p> <b>Date: </b> May 2018 to August 2018 <br>
-                    June 2016 to Sept 2016 <br> <br>
-  •Understand and Resolve computer hardware and software failures for clients <br>
-  •Analyze and troubleshoot complex network infrastructure in education. <br>
-  •Working knowledge in Active Directory
-  </p>
-  </div>
- </div>
-
- <div class="w3-card w3-layout-cell" style="width:33%">
-  <header class="w3-container w3-orange">
-  <h4>Software Engineer at Spectracom</h4>
-  </header>
-  <div class="w3-container">
-  <p> <b>Date: </b> June 2017 to Nov 2017 <br> <br>
-  • Worked with Linux CLI, file permissions, CMake, time series databases, Qt, cakePHP, Bash and Python. <br>
-  • Utilized agile methodology following Test-Driven Design and using Atlassian tools (Jira, Wiki, Bitbucket) <br>
-  • Scripted the creation of software packages for Windows, DEB and RPM linux and automated using Jenkins <br>
-  • Tested viability of third party licensing solution <br>
-  </p>
-  </div>
- </div>
-
- <div class="w3-card w3-layout-cell" style="width:33">
-  <header class="w3-container w3-red">
-  <h4>Field Technician (IT) at Amvean</h4>
-  </header>
-  <div class="w3-container">
-  <p> <b>Date: </b> Aug 2015 to Nov 2015 <br> <br>
-  • Schedule and complete appointments with clients regarding Software and Hardware problems. <br>
-  • Troubleshoot networks for small businesses and residential customers. <br>
-  • Handle invoicing via Quickbooks. <br>
-  </p>
-  </div>
- </div>
-
- <h2>Volunteering</h2>
- <div class="w3-card w3-layout-cell" style="width:auto">
-  <header class="w3-container w3-teal">
-  <h4>Citizen Teacher at Citizen Schools</h4>
-  </header>
-  <div class="w3-container">
-  <p> <b>Date: </b> Jan 2013 to May 2013 <br>
-  • Teach programming fundamentals to 6th and 7th graders <br>
-  • Video Game Design/Development in Scratch
-  </p>
-  </div>
- </div>  
-</div>
-
-
-<div id="Projects" class="info" style="display:none">
-  <h2>Noteworthy Projects</h2>
-  <div class="w3-accordion w3-light-grey">
-  
- <button onclick="expandProjects('Proj0')" class="w3-btn-block w3-left-align w3-green">
-    Moovme Moving App
-  </button>
-  <div id="Proj0" class="w3-accordion-content w3-container w3-hide">
-    <p>•  Software for moving industry <br>
-• Designed schema for Mongo Database and created classes to encapsulate data in Javascript <br>
-• Decided to use the Mean stack for security, scalability and ease of development <br>
- </p>
-  <a href=" https://github.com/aj340/moovme"> Moovme </a> <br>
-  </div>
-
-  <button onclick="expandProjects('Proj1')" class="w3-btn-block w3-left-align w3-green">
-    Mastermind (Board Game) player
-  </button>
-  <div id="Proj1" class="w3-accordion-content w3-container w3-hide">
-    <p>•Worked in a small team (group of 4) to create a near optimal, time efficient (10 seconds per game), scalable mastermind player in Clozure Common LISP over the course of 2 months. <br>
-	•Utilized a Development cycle similar to Agile Methodology where group self-assessed project needs and time while working on many small iterations towards the goal. <br>
-	•Wrote unit tests against large code pool and ran them on Amazon Azure and Travis CI. <br>
-	•Collaborated and managed multiple versions and iterations on GitHub. <br>
-	•Improved performance over time by improving complexities of various functions </p>
-  <a href=" https://github.com/capablemonkey/strangemind"> StrangeMind </a> <br>
-  </div>
-
-  <button onclick="expandProjects('Proj2')" class="w3-btn-block w3-left-align w3-green">
-    RNA Reconstruction Problem
-  </button>
-  <div id="Proj2" class="w3-accordion-content w3-container w3-hide">
-    <p>•Modeled a RNA sequence broken by enzymes as a graph using a custom Adjacency Matrix Class in C++ <br>
-	•Found all possible reconstructions of these broken subsequences by finding all Euler Circuits.</p>
-        <a href=" https://github.com/AJ340/RNA-Refragmentation"> RNA-Refragmentation </a> <br>
-  </div>
-
-    <button onclick="expandProjects('Proj3')" class="w3-btn-block w3-left-align w3-green">
-    Simple OS Simulation
-  </button>
-  <div id="Proj3" class="w3-accordion-content w3-container w3-hide">
-    <p>•Modeled core operating system including CPU with preemptive priority scheduling (without priority elevation), Worst-Fit Memory Allocation, CPU and Device Queues and simple PCBs. <br>
-	•Kept code clean and organized across multiple files in C++. <br>
-	•Created Easy command interface for manipulating system.</p>
-      <a href=" https://github.com/AJ340/OS-Simulation/tree/master"> OS-Simulation </a> <br>
-  </div>
-    <button onclick="expandProjects('Proj4')" class="w3-btn-block w3-left-align w3-green">
-	Parallel Traffic Circle
-  </button>
-  <div id="Proj4" class="w3-accordion-content w3-container w3-hide">
-    <p>•Modeled a traffic circle with 4 entrances utilizing a Monte Carlo Method. <br>
-	•Modeled arrival time for cars as an Exponentially Distributed Random Variable <br>
-	•Simulated exit destination for each car as a Uniform Random Variable</p>
-  <a href=" https://github.com/AJ340/Parallel-Programming-Coursework/tree/master/Traffic-Circle-Simulation"> Traffic-Circle-Simulation </a> <br>
-  </div>
-    <button onclick="expandProjects('Proj5')" class="w3-btn-block w3-left-align w3-green">
-	Hospital Database
-  </button>
-  <div id="Proj5" class="w3-accordion-content w3-container w3-hide">
-    <p>•Worked as a team to create ER Model and Diagram simulating a Hospital Structure <br>
-	•Utilized relational algebra, calculus and normalization throughout the development process. <br>
-	•Implemented physical model of database using Oracle SQL Plus with code to create, populate and drop tables in the schema</p>
-    <a href=" https://github.com/AJ340/HHospital"> HHospital </a> <br>
-  </div>
-
-</div>
-
-<script>
-var last_expanded = ""
-function expandProjects(id) {
-    var x = document.getElementById(id);
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
-    }
-    var y = document.getElementById(last_expanded);
-    if (last_expanded != "" && last_expanded != id){
-    	if (y.className.indexOf("w3-hide") == -1) {
-    		y.className += " w3-hide";
-    	} else { 
-    		y.className = y.className.replace(" w3-show", "");
-    	}
-    }
-    last_expanded = id;
-}
-</script>
-
-
-</div>
-
-</div>
-
-<script>
-
-
-function openInfo(evt, infoName) {
-    var i, x, tablinks;
-    x = document.getElementsByClassName("info");
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablink");
-    for (i = 0; i < x.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" w3-green", " w3-lightgray");
-    }
-    document.getElementById(infoName).style.display = "block";
-    evt.currentTarget.className += " w3-green";
-}
-</script>
-
-</body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Personal - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">{Andres Quinones NYC}</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Header-->
+            <header class="py-5">
+                <div class="container px-5 pb-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-xxl-5">
+                            <!-- Header text content-->
+                            <div class="text-center text-xxl-start">
+                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Software Development &middot; System Design &middot; IT Support</div></div>
+                                <div class="fs-3 fw-light text-muted">I can help your business</div>
+                                <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Build Rock-Solid Software</span></h1>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Resume</a>
+                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-7">
+                            <!-- Header profile picture-->
+                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                                <div class="profile bg-gradient-primary-to-secondary">
+                                    <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
+                                    <!-- Watch a tutorial on how to do this on YouTube (link)-->
+                                    <img class="profile-img" src="assets/profile.png" alt="..." />
+                                    <div class="dots-1">
+                                        <!-- SVG Dots-->
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
+                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
+                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
+                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
+                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
+                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
+                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
+                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
+                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
+                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
+                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
+                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
+                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
+                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
+                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
+                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
+                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
+                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
+                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
+                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
+                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
+                                            </g>
+                                        </svg>
+                                        <!-- END of SVG dots-->
+                                    </div>
+                                    <div class="dots-2">
+                                        <!-- SVG Dots-->
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
+                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
+                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
+                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
+                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
+                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
+                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
+                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
+                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
+                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
+                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
+                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
+                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
+                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
+                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
+                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
+                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
+                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
+                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
+                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
+                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
+                                            </g>
+                                        </svg>
+                                        <!-- END of SVG dots-->
+                                    </div>
+                                    <div class="dots-3">
+                                        <!-- SVG Dots-->
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
+                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
+                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
+                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
+                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
+                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
+                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
+                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
+                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
+                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
+                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
+                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
+                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
+                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
+                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
+                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
+                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
+                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
+                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
+                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
+                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
+                                            </g>
+                                        </svg>
+                                        <!-- END of SVG dots-->
+                                    </div>
+                                    <div class="dots-4">
+                                        <!-- SVG Dots-->
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
+                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
+                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
+                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
+                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
+                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
+                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
+                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
+                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
+                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
+                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
+                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
+                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
+                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
+                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
+                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
+                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
+                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
+                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
+                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
+                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
+                                            </g>
+                                        </svg>
+                                        <!-- END of SVG dots-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- About Section-->
+            <section class="bg-light py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
+                                <p class="lead fw-light mb-4">My name is Andres Quinones and I build technology solutions.</p>
+                                <p class="text-muted">With 6 years of industry experience, I can improve your software systems effectively and efficiently</p>
+                                <div class="d-flex justify-content-center fs-2 gap-4">
+                                    <a class="text-gradient" href="https://x.com/AJQ340"><i class="bi bi-twitter"></i></a>
+                                    <a class="text-gradient" href="https://www.linkedin.com/in/aj340/"><i class="bi bi-linkedin"></i></a>
+                                    <a class="text-gradient" href="https://github.com/AJ340"><i class="bi bi-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Andres Quinones 2025</div></div>
+                    <div class="col-auto">
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="https://linktr.ee/andres.lives">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
