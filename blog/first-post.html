@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Why this site is built like a status board — Andres Quinones</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<div class="statusbar">
+  <div class="wrap">
+    <div class="status-left"><span class="dot"></span><span>STATUS: ONLINE</span> · OPEN TO OPPORTUNITIES</div>
+    <div class="status-right">
+      <span id="clock">— EST · NYC</span>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">●</button>
+    </div>
+  </div>
+</div>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="../index.html">
+      <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none"><path d="M2 12h4l2-7 4 14 3-9 2 5h5" stroke="#ffb454" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      AJQ<span style="color:var(--text-dim)">/</span>SYSTEM
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    <ul class="navlinks">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../resume.html">Resume</a></li>
+      <li><a href="../projects.html">Projects</a></li>
+      <li><a href="../blog.html" class="active">Blog</a></li>
+      <li><a href="../support.html">Support</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot-live"></span>2026-07-24 · MISC / DESIGN</div>
+    <h1 style="font-size:clamp(26px,4vw,38px);">Why this site is built like a status board</h1>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="post-body">
+      <p>Most portfolio sites are brochures: a headshot, some adjectives, a list of logos. I wanted mine to read more like the thing I actually spend my day doing — watching a system, understanding its state, and trusting that what it reports is true.</p>
+      <p>That's the idea behind the layout here. The status bar at the top isn't decoration — it's the same instinct that makes me check a dashboard before I check my email. Sections are numbered modules instead of a scroll of vague headings, because the content really is a sequence: who I am, what I've built, what I'm writing, how to reach me.</p>
+      <h2>What "hosted here" actually means</h2>
+      <p>The NIGHTFALL demo on the projects page isn't a screenshot or a video — it's the real game, running client-side, no install and no backend. That was a deliberate constraint: anything I claim is "live" on this site has to actually run in your browser right now.</p>
+      <p>Signal and Keel aren't embedded the same way, and that's also deliberate — Signal needs an API key behind it, and Keel is a private health app by design. Case studies and source links are the honest way to represent those here.</p>
+      <h2>What's next</h2>
+      <p>More posts will land here as I ship — mostly short write-ups on things I got stuck on, decisions I made in the game or the search tools, and whatever else is worth writing down.</p>
+    </div>
+
+    <div style="margin-top:40px; padding-top:24px; border-top:1px solid var(--border-soft); font-family:var(--font-mono); font-size:13px;">
+      <a href="../blog.html" style="color:var(--text-muted);">All posts</a>
+      &nbsp;·&nbsp;
+      <a href="nas-homelab.html" style="color:var(--accent);">Building a NAS I actually trust →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>© <span id="year"></span> Andres Quinones · NYC</div>
+    <div class="social-row">
+      <a href="https://github.com/AJ340" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/aj340/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="soon" title="Not connected yet">X<span class="soon-badge">soon</span></a>
+      <a class="soon" title="Not connected yet">Instagram<span class="soon-badge">soon</span></a>
+      <a href="../contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Blog — Andres Quinones</title>
+<meta name="description" content="Writing on software, systems, and side projects — Andres Quinones.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="statusbar">
+  <div class="wrap">
+    <div class="status-left"><span class="dot"></span><span>STATUS: ONLINE</span> · OPEN TO OPPORTUNITIES</div>
+    <div class="status-right">
+      <span id="clock">— EST · NYC</span>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">●</button>
+    </div>
+  </div>
+</div>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none"><path d="M2 12h4l2-7 4 14 3-9 2 5h5" stroke="#ffb454" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      AJQ<span style="color:var(--text-dim)">/</span>SYSTEM
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    <ul class="navlinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot-live"></span>LOG STREAM</div>
+    <h1>Blog</h1>
+    <p class="hero-sub" style="margin-top:14px;">Notes on what I'm building, and what breaks along the way.</p>
+  </div>
+</header>
+
+<section id="posts">
+  <div class="wrap">
+    <div class="blog-list" id="blog-list">
+      <!-- rendered by assets/js/main.js from the BLOG_POSTS array -->
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>© <span id="year"></span> Andres Quinones · NYC</div>
+    <div class="social-row">
+      <a href="https://github.com/AJ340" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/aj340/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="soon" title="Not connected yet">X<span class="soon-badge">soon</span></a>
+      <a class="soon" title="Not connected yet">Instagram<span class="soon-badge">soon</span></a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
